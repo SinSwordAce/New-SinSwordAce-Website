@@ -1,0 +1,41 @@
+html {
+    background-image: url("../images/background/wallpaper.webp");
+    background-size: cover;
+    background-repeat:repeat;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#nav {
+    text-align: center;
+    font-size: 0;
+}
+
+.nav-link {
+    border: 3px rgba(255, 200, 80, 0.5);
+    border-radius: 35px;
+    border-style: hidden solid hidden solid;
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} 
+
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0.50);
+    border: 12px;
+    border-color: #ff0000;
+    border-style: hidden solid hidden solid;
+    transition: 0.6s ease-in-out;
+    transition-delay: 0.03s;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
