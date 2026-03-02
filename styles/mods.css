@@ -1,0 +1,28 @@
+.mod-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px; /* space between containers */
+    margin-top: 20px;
+}
+
+/* Update .video-container for side-by-side layout */
+.mod-container {
+    flex: 1 1 400px; /* allows wrapping and sets min width */
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    text-decoration: none;
+    /* Remove margin-left/right: auto and max-width: 800px */
+}
+
+.mod-context {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 25px;
+    padding: auto;
+}
