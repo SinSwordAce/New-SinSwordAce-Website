@@ -22,18 +22,9 @@
     border-radius: 20px;
 }
 
-.minibox1 {
+.minibox {
     width: auto;
-    height: auto;
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background: rgba(255, 255, 255, 0.030);
-}
-
-.minibox2 {
-    width: auto;
-    height: auto;
+    height: 425px;
     text-align: center;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -42,12 +33,10 @@
 
 .bigbox {
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     background: rgba(255, 255, 255, 0.030);
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px;
 }
 
 h2 {
@@ -58,14 +47,11 @@ h2 {
 #com {
     font-size: 45px;
     text-align: center;
-    margin: 0px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
-    background: rgba(255, 255, 255, 0.050);
-    border-radius: 25px;
-    margin-top: 5px;
-    margin-right: 150px;
-    margin-left: 150px;
-    width: auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.030);
+    border-radius: 20px;
+    max-width: 65%;
+    margin: 0 auto;
 }
 
 p {
@@ -73,6 +59,16 @@ p {
     padding-left: 50px;
     text-align: justify;
     font-size: 25px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Raid {
+    width: 640px;
+    height: 360px;
 }
 
 @media (max-width: 768px) {
