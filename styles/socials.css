@@ -10,11 +10,10 @@
 }
 
 .box:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s ease-in-out;
-    background: rgb(255, 255, 255, 0.060);
+    background: rgb(255, 255, 255, 0.010);
     border: 2px solid rgba(255, 255, 255, 0.45);
-
 }
 
 .social-link {
@@ -23,21 +22,19 @@
     justify-content: center; /* Horizontally centers the content */
     align-items: center; /* Vertically centers the icon and text */
     text-decoration: none;
-    color: white;
-    font-size: 90px;
-    font-weight: bold;
     gap: 10px; /* Adds space between the icon and the text */
+}
+
+span {
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
 }
 
 .social-link img {
     margin-bottom: 0; /* Removes the bottom margin since the icon is now side by side with the text */
-    width: 100px; /* Ensures consistent icon size */
+    max-width: 100px; /* Ensures consistent icon size */
     height: auto;
-}
-
-p { 
-    font-size: 90px;
-    margin: 0; /* Removes default margin */
 }
 
 @media (max-width: 768px) {

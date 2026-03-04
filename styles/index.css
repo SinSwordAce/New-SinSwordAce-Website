@@ -15,6 +15,13 @@
     background: rgba(255, 255, 255, 0.030);
 }
 
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    background: rgb(255, 255, 255, 0.010);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+}
+
 .combobox {
     width: 750px; /* Default width for desktop */
     height: auto;
@@ -31,12 +38,26 @@
     background: rgba(255, 255, 255, 0.030);
 }
 
+.minibox:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    background: rgb(255, 255, 255, 0.010);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+}
+
 .bigbox {
     text-align: center;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     background: rgba(255, 255, 255, 0.030);
     padding: 10px;
+}
+
+.bigbox:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    background: rgb(255, 255, 255, 0.010);
+    border: 2px solid rgba(255, 255, 255, 0.45);
 }
 
 h2 {
