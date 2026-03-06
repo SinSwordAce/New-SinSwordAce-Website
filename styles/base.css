@@ -14,20 +14,19 @@ footer {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 1vmax;
     margin-top: 20px;
 }
 
 #nav {
     text-align: center;
-    font-size: 0;
 }
 
 .nav-link {
     border-right: 3px #ffae00 solid;
     border-left: 3px #ffae00 solid ;
     border-radius: 35px;
-    font-size: 40px;
+    font-size: 2vmax;
     padding: 10px;
     text-decoration: none;
     color: white;
