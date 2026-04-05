@@ -9,7 +9,7 @@
 /* Update .video-container for side-by-side layout */
 .mod-container {
     flex: 1 1 500px; /* allows wrapping and sets min width */
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.05);
